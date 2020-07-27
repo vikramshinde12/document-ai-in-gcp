@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.container {
+  padding: 16px;
+  background-color: lightblue;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+</style>
+<form method="POST" action="/upload" enctype="multipart/form-data">
+  <div class="container">
+    <h1>Upload</h1>
+    <p>Please select the file to upload.</p>
+    <hr>
+
+
+    <label for="file"><b>File  : </b></label >
+    <input type="file" placeholder="Select File" name="file" >
+    <input type="submit" class="registerbtn">
+
+  </div>
+
+</form>
+
+</body>
+</html>

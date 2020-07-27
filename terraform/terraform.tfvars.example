@@ -1,0 +1,3 @@
+project_name = "project-foo-123456"
+region = "us-central1"
+zone = "us-central1-a"
