@@ -7,7 +7,7 @@ Following components are used
 * Cloud Storage
 * Cloud Run
 
-![Architecture](https://github.com/vikramshinde12/document-ai-in-gcp/blob/master/Architecture?raw=true)
+![Architecture](https://github.com/vikramshinde12/document-ai-in-gcp/blob/master/Architecture.png)
 
 ### Create Service Account
 1. Create Service Account
